@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <h1>Personal Portfolio</h1>
+    <title>Personal Portfolio</title>    
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
+<body class="background-image">
 
    <header>
       <a href=""><img src="logo.svg" alt="Photo"
@@ -36,19 +35,23 @@
    
  <br>
    <div class="main">
-      <div id="#HOME" class="tabcontent">HOME <br>
+      <div id="#HOME" class="tabcontent">
+         <a href="index.html" class="main.btn" >HOME  </a> <br>
          <p> Personal Portfolio</p>
       </div>
   
-      <div id="#ABOUT" class="tabcontent">ABOUT <br>
+      <div id="#ABOUT" class="tabcontent">
+         <a href="about.html" class="main.btn" >ABOUT</a> <br>
          <p> Get to know me better </p>
       </div>
   
-      <div id="#CONTACT" class="tabcontent">CONTACT <br>
+      <div id="#CONTACT" class="tabcontent">
+         <a href="contact.html" class="main.btn" >CONTACT</a> <br>
         <p> For queries or comments kindly reach out </p>
       </div>
   
-      <div id="#PROJECTS" class="tabcontent">PROJECTS
+      <div id="#PROJECTS" class="tabcontent">
+         <a href="projects.html" class="main.btn" >PROJECTS</a>
          <p>Projects Portfolio </p>
       </div>
    </div>
@@ -64,11 +67,17 @@
      background-position: center;
 }
 
-/* @media screen and (max width: 1000px) {
-   body {
-  background: none; 
-}
+
+@media screen and (max width: 1000px) {
+.hero {
+        color: black;
+    }
+
+/* attempt to create a responsive background 
+html {
+   background-image: url(patterns.png);
 } */
+}
 </style>
 
 </body>
